@@ -75,3 +75,28 @@ h2 {
 .container-footer p {
     margin: 5px 0;
 }
+
+.contact-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.contact-button a {
+    display: inline-block;
+    background-color: #009688; /* Warna tombol */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.3s ease-in-out;
+}
+
+.contact-button a:hover {
+    background-color: #00796B; /* Warna saat hover */
+}
+
+
+
